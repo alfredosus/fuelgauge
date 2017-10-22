@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:bind="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/car_status_item"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@drawable/section_border"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/iv_status_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_logo_mileage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.513" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_status_icon"
+        app:layout_constraintEnd_toStartOf="@+id/iv_status_action"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/iv_status_icon"
+        app:layout_constraintTop_toTopOf="@+id/iv_status_icon">
+
+        <TextView
+            android:id="@+id/tv_status"
+            style="@style/StatusItemTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="@string/km"
+            app:layout_constraintBottom_toTopOf="@+id/tv_status_value"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="126dp" />
+
+
+        <TextView
+            android:id="@+id/tv_status_value"
+            style="@style/StatusItemValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="78 km"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_status"
+            tools:layout_editor_absoluteX="141dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_status_action"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout" />
+
+
+</android.support.constraint.ConstraintLayout>

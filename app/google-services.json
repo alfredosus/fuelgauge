@@ -1,0 +1,340 @@
+{
+  "project_info": {
+    "project_number": "156280912380",
+    "firebase_url": "https://quickstart-android-c829c.firebaseio.com",
+    "project_id": "quickstart-android-c829c",
+    "storage_bucket": "quickstart-android-c829c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156280912380:android:5920de3503a2d18c",
+        "android_client_info": {
+          "package_name": "com.google.firebase.quickstart.fcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156280912380-plgf91j0cv4rqljno0o8fmioil50ev6p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.firebase.quickstart.fcm",
+            "certificate_hash": "cafc532f78fc258176f66e04cb66bfe2ff533073"
+          }
+        },
+        {
+          "client_id": "156280912380-7r3qe020bupuo95q96tgihesn0lonehp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzGFVR26SHxKrhsZ1miAuc9G76pOHp3Kc"
+        },
+        {
+          "current_key": "AIzaSyBmXp3EXWbkXhwZneg7pjrCCHmMr6s6bpk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156280912380-7r3qe020bupuo95q96tgihesn0lonehp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156280912380:android:5613fdb9cad67fef",
+        "android_client_info": {
+          "package_name": "com.renaultdigital.android.myrenault.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156280912380-554lvg5i4gpqua2rbncd3vhgh05pr66o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.renaultdigital.android.myrenault.debug",
+            "certificate_hash": "cafc532f78fc258176f66e04cb66bfe2ff533073"
+          }
+        },
+        {
+          "client_id": "156280912380-7r3qe020bupuo95q96tgihesn0lonehp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzGFVR26SHxKrhsZ1miAuc9G76pOHp3Kc"
+        },
+        {
+          "current_key": "AIzaSyBmXp3EXWbkXhwZneg7pjrCCHmMr6s6bpk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156280912380-7r3qe020bupuo95q96tgihesn0lonehp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156280912380:android:9df83cf835c29e6f",
+        "android_client_info": {
+          "package_name": "com.renaultdigital.android.myrenault"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156280912380-hova9lalj8fcmisadpg65v6u3fhn2dhm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.renaultdigital.android.myrenault",
+            "certificate_hash": "cafc532f78fc258176f66e04cb66bfe2ff533073"
+          }
+        },
+        {
+          "client_id": "156280912380-7r3qe020bupuo95q96tgihesn0lonehp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzGFVR26SHxKrhsZ1miAuc9G76pOHp3Kc"
+        },
+        {
+          "current_key": "AIzaSyBmXp3EXWbkXhwZneg7pjrCCHmMr6s6bpk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156280912380-7r3qe020bupuo95q96tgihesn0lonehp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156280912380:android:29cb73e5e08931a9",
+        "android_client_info": {
+          "package_name": "ara.renault.com.my_sdk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156280912380-s5djb79175gq0nbrq6hi2oj5vh8trlkr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ara.renault.com.my_sdk",
+            "certificate_hash": "3ed55f263b44ed8ba901750bd8e092483e6f7069"
+          }
+        },
+        {
+          "client_id": "156280912380-7r3qe020bupuo95q96tgihesn0lonehp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzGFVR26SHxKrhsZ1miAuc9G76pOHp3Kc"
+        },
+        {
+          "current_key": "AIzaSyBmXp3EXWbkXhwZneg7pjrCCHmMr6s6bpk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156280912380-7r3qe020bupuo95q96tgihesn0lonehp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156280912380:android:6705317fb48343a4",
+        "android_client_info": {
+          "package_name": "com.barebones"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156280912380-j5t5uvjibf4854nf1h8g3f68r91l4775.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.barebones",
+            "certificate_hash": "f678d4eaf4550081bdd12f9cfc50a31ddc62979f"
+          }
+        },
+        {
+          "client_id": "156280912380-7r3qe020bupuo95q96tgihesn0lonehp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzGFVR26SHxKrhsZ1miAuc9G76pOHp3Kc"
+        },
+        {
+          "current_key": "AIzaSyBmXp3EXWbkXhwZneg7pjrCCHmMr6s6bpk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156280912380-7r3qe020bupuo95q96tgihesn0lonehp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156280912380:android:c1bcbff27f88d773",
+        "android_client_info": {
+          "package_name": "com.easyride"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156280912380-dtptdsgddpfj21badkv45mgo2o44ofqb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.easyride",
+            "certificate_hash": "f678d4eaf4550081bdd12f9cfc50a31ddc62979f"
+          }
+        },
+        {
+          "client_id": "156280912380-7r3qe020bupuo95q96tgihesn0lonehp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzGFVR26SHxKrhsZ1miAuc9G76pOHp3Kc"
+        },
+        {
+          "current_key": "AIzaSyBmXp3EXWbkXhwZneg7pjrCCHmMr6s6bpk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156280912380-7r3qe020bupuo95q96tgihesn0lonehp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156280912380:android:9362a8b9b6745491",
+        "android_client_info": {
+          "package_name": "ara.renault.com.fuel_level"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156280912380-aaq4u60j14baqrcdl0fjvjuu8r3avsk3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ara.renault.com.fuel_level",
+            "certificate_hash": "3ed55f263b44ed8ba901750bd8e092483e6f7069"
+          }
+        },
+        {
+          "client_id": "156280912380-7r3qe020bupuo95q96tgihesn0lonehp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzGFVR26SHxKrhsZ1miAuc9G76pOHp3Kc"
+        },
+        {
+          "current_key": "AIzaSyBmXp3EXWbkXhwZneg7pjrCCHmMr6s6bpk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156280912380-7r3qe020bupuo95q96tgihesn0lonehp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

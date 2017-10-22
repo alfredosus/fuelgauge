@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">fuel-gauge</string>
+    <string name="mileage_value">%1$s miles</string>
+    <string name="km">Mileage</string>
+    <string name="reinit">Replay</string>
+</resources>

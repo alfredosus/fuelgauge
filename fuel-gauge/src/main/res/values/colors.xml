@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorLightGray">#FFCCCCCC</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="green">#23cf34</color>
+    <color name="orange">#e47833</color>
+    <color name="red">#ff0000</color>
+    <color name="lite_blue">#4e78a0</color>
+    <color name="blue">#0000ff</color>
+    <color name="grey">#ff909090</color>
+    <color name="transparent">#00000000</color>
+    <color name="yellow">#fffec00b</color>
+    <color name="tabMedium">#2b2b2b</color>
+    <color name="tabDark">#000000</color>
+    <color name="tabTransparent">#10ffffff</color>
+    <color name="backgroundTransparent">#33999999</color>
+    <color name="popupText">#ff00ff00</color>
+</resources>

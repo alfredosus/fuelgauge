@@ -1,0 +1,18 @@
+<resources>
+
+
+    <style name="StatusItemTitle">
+             <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">23sp</item>
+    </style>
+
+    <style name="StatusAdditionalInfo">
+             <item name="android:textSize">14sp</item>
+    </style>
+
+
+    <style name="StatusItemValue">
+               <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+</resources>
