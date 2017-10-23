@@ -13,19 +13,13 @@ import android.support.annotation.Nullable;
 import android.support.constraint.ConstraintLayout;
 import android.support.v4.app.Fragment;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.google.firebase.FirebaseApp;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
+
 
 import java.util.HashMap;
 import java.util.Map;
@@ -34,13 +28,13 @@ import java.util.regex.Pattern;
 
 import ara.renault.com.fuel_gauge.views.GaugeView;
 
-public class NativeGaugeFragment extends Fragment implements ValueEventListener {
+public class NativeGaugeFragment extends Fragment{
 
     private static final String TAG = NativeGaugeFragment.class.getSimpleName();
     private static final String FUEL = "fuel";
     private static final String MILEAGE = "mileage";
 
-    private static final String CAR = "car";
+    public static final String CAR = "car";
 
     private static final long DURATION_NEEDLE = 5000;
     private static final long DURATION_FLICKER = 1000;
@@ -96,7 +90,6 @@ public class NativeGaugeFragment extends Fragment implements ValueEventListener 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        FirebaseApp.initializeApp(getContext());
         triggerAnimations();
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -161,48 +154,7 @@ public class NativeGaugeFragment extends Fragment implements ValueEventListener 
         mileView.setText(mileage);
     }
 
-    @Override
-    public void onStart() {
-        super.onStart();
-        setUpListener(CAR);
 
-    }
-
-    @Override
-    public void onStop() {
-        super.onStop();
-        removeListener(CAR);
-
-    }
-
-    public void setUpListener(final String key) {
-        // Write a message to the database
-        FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference myRef = database.getReference(key);
-        // Read from the database
-        myRef.addValueEventListener(this);
-    }
-
-    public void removeListener(final String key) {
-        // Write a message to the database
-        FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference myRef = database.getReference(key);
-        // Read from the database
-        myRef.removeEventListener(this);
-    }
-
-
-    @Override
-    public void onDataChange(DataSnapshot dataSnapshot) {
-        // This method is called once with the initial value and again
-        // whenever data at this location is updated.
-        String key = dataSnapshot.getKey();
-        Log.d(TAG, "Value from " + key);
-        Car car = dataSnapshot.getValue(Car.class);
-        displayCar(car);
-        if (mListener != null)
-            mListener.onValueChanged(makeCar());
-    }
 
     public void displayCar(Car car) {
         gauge_view.setVisibility(car.isFuelV() ? View.VISIBLE : View.GONE);
@@ -229,10 +181,7 @@ public class NativeGaugeFragment extends Fragment implements ValueEventListener 
     }
 
 
-    @Override
-    public void onCancelled(DatabaseError databaseError) {
-        Log.e(TAG, "Failed to read value.", databaseError.toException());
-    }
+
 
 
 }
